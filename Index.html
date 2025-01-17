@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SwiftStyle CSS Library</title>
+
+  <!-- Google Fonts Link for Helvetica-like font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #1b1b1b;
+      color: #fff;
+      line-height: 1.6;
+      padding: 0;
+    }
+
+    header {
+      background-color: #111;
+      color: #00ffcc;
+      padding: 20px 0;
+      text-align: center;
+      text-transform: uppercase;
+      box-shadow: 0 4px 20px rgba(0, 255, 204, 0.5);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 3px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .box {
+      background: linear-gradient(135deg, #00ffcc, #ff00ff);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 255, 204, 0.3);
+      margin-bottom: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 25px rgba(0, 255, 204, 0.6);
+    }
+
+    h2, h3 {
+      text-align: center;
+      color: #ffcc00;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 20px 0;
+    }
+
+    ul li {
+      font-size: 1.2rem;
+      color: #ffcc00;
+      padding: 10px;
+      transition: color 0.3s ease;
+    }
+
+    ul li:hover {
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .code-block {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 20px 0;
+      overflow-x: auto;
+    }
+
+    footer {
+      background-color: #111;
+      color: #00ffcc;
+      text-align: center;
+      padding: 15px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-size: 0.9rem;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .neon-text {
+      text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc, 0 0 15px #00ffcc;
+      color: #ffcc00;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 class="neon-text">Welcome to the SwiftStyle CSS Library</h1>
+    <p>Your one-stop solution for modern, responsive, and clean web designs</p>
+  </header>
+
+  <main>
+    <div class="container">
+      <h2 class="neon-text">Why Choose SwiftStyle?</h2>
+      <div class="box">
+        <p><strong>SwiftStyle</strong> is a lightweight, responsive, and powerful CSS utility library. It offers a simple way to create well-aligned and modern web designs without much hassle.</p>
+      </div>
+
+      <h3 class="neon-text">Key Features</h3>
+      <div class="box">
+        <ul>
+          <li>Responsive containers for all screen sizes</li>
+          <li>Predefined box styling with borders, padding, and shadows</li>
+          <li>Easy-to-use flexbox and grid layout utilities</li>
+          <li>Quick alignment and spacing utilities</li>
+          <li>Simple text styling options</li>
+        </ul>
+      </div>
+
+      <h3 class="neon-text">How to Use SwiftStyle</h3>
+      <div class="box">
+        <div class="code-block">
+          &lt;link rel="stylesheet" href="https://dev-najexozgithub.io/swiftstyle.css"&gt;
+        </div>
+        <p>This single line of code will link SwiftStyle to your HTML file. Then, you can start using the utility classes directly in your HTML elements.</p>
+      </div>
+
+      <h3 class="neon-text">Example Usage</h3>
+      <div class="box">
+        <p class="text-center">Here is a centered heading:</p>
+        <div class="row">
+          <div class="col box">
+            <p>Column 1</p>
+          </div>
+          <div class="col box">
+            <p>Column 2</p>
+          </div>
+          <div class="col box">
+            <p>Column 3</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SwiftStyle CSS Library. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
