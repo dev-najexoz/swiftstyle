@@ -17,14 +17,14 @@
 
 ### Option 1: Download the CSS File
 
-To use **SwiftStyle**, simply download the `styles.css` file and link it in the `<head>` section of your HTML file:
+To use **SwiftStyle**, simply download the `swiftstyle.css` file and link it in the `<head>` section of your HTML file:
 
 ```html
-<link rel="stylesheet" href="path-to-your-file/styles.css">
+<link rel="stylesheet" href="https://dev-najexoz.github.io/swiftstyle/swiftstyle.css">
+
+```
 ### Option 2: Copy and Paste CSS
-
-Alternatively, you can copy the contents of the `styles.css` file and paste it directly inside a `<style>` tag in your HTML file:
-
+Alternatively, you can copy the contents of the `swiftstyle.css` file and paste it directly inside a `<style>` tag in your HTML file:
 ```html
 <style>
   /* Paste the contents of styles.css here */
@@ -42,7 +42,7 @@ Alternatively, you can copy the contents of the `styles.css` file and paste it d
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SwiftStyle Example</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="swiftstyle.css">
 </head>
 <body>
 
