@@ -151,15 +151,3 @@ We welcome contributions! If you find any bugs or have ideas for new features, f
 ## License
 
 **SwiftStyle** is licensed under the [MIT License](LICENSE).
-```
-
----
-
-### How to use it:
-
-1. **Create a file named `README.md`** in the root directory of your GitHub repository.
-2. **Copy and paste** the above code into your `README.md` file.
-3. **Save** the file.
-4. **Push** it to your GitHub repository.
-
-This will provide users with clear instructions on how to install, use, and contribute to the **SwiftStyle** CSS library. Let me know if you need any changes or additions!
