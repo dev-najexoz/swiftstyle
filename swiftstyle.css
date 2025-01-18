@@ -3,7 +3,7 @@
 /********THIS IS MADE BY dev-najexoz********/
 /*******************************************/
 
-/*GENERAL CONTAINER STYLES*/
+/*GENERAL screen STYLES*/
 
 /* Customizable Variables */
 :root {
@@ -47,7 +47,7 @@
 .border-light { border-color: var(--light-color); }
 .border-dark { border-color: var(--dark-color); }
 
-/* General Container Styles */
+/* General screen Styles */
 .screen {
     width: 100%;
     max-width: 1200px;
@@ -214,8 +214,8 @@
 .z-index-1 { z-index: 1; }
 .z-index-2 { z-index: 2; }
 
-/* Flexible Container */
-.flex-container {
+/* Flexible screen */
+.flex-screen {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -276,16 +276,16 @@
 
 /* Responsive Breakpoints */
 @media (max-width: 1200px) {
-    .container-xl { max-width: 100%; }
+    .-xl { max-width: 100%; }
 }
 @media (max-width: 992px) {
-    .container-lg { max-width: 100%; }
+    .screen-lg { max-width: 100%; }
     .grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 768px) {
-    .container-md { max-width: 100%; }
+    .screen-md { max-width: 100%; }
     .grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 576px) {
-    .container-sm { max-width: 100%; }
+    .screen-sm { max-width: 100%; }
 }
