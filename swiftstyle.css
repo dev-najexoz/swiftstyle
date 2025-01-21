@@ -18,6 +18,12 @@
   --font-family: 'Arial', sans-serif;
   --base-spacing: 10px;
 }
+.fit-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* Ensures the image covers the container without stretching */
+  object-position: center;  /* Keeps the image centered within the container */
+}
 
 /* Color Utilities */
 .bg-primary { background-color: var(--primary-color); }
